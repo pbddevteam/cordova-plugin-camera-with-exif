@@ -17,7 +17,7 @@
     <repo>https://github.com/remoorejr/cordova-plugin-camera-with-exif.git</repo>
 
     <engines>
-       <engine name="cordova" version="&gt;=7.1.0" />
+       <engine name="cordova" version=">=7.1.0" />
        <engine name="cordova-android" version=">=6.3.0" />
     </engines>
 
@@ -69,6 +69,7 @@
 
          <preference name="ANDROID_SUPPORT_V4_VERSION" default="27.+"/>
         <framework src="com.android.support:support-v4:$ANDROID_SUPPORT_V4_VERSION"/>
+		<framework src="com.google.code.gson:gson:2.8.5" />
 
      </platform>
 
